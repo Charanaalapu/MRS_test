@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/MRS_text/static/css/main.ae330364.css",
+    "main.js": "/MRS_text/static/js/main.b4ff4359.js",
+    "static/media/Asset 5.svg": "/MRS_text/static/media/Asset 5.a6dc3980cc44aa891513.svg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/MRS_text/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/MRS_text/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/MRS_text/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/MRS_text/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fullmap.png": "/MRS_text/static/media/fullmap.3a3dfd9515c7d6e6bd67.png",
+    "static/media/18.png": "/MRS_text/static/media/18.a349e046dfa15533571c.png",
+    "static/media/20.png": "/MRS_text/static/media/20.1e7dcda25198a90a7ce3.png",
+    "static/media/19.png": "/MRS_text/static/media/19.0cdd1b663a6f88a525ec.png",
+    "static/media/17.png": "/MRS_text/static/media/17.f66c4771de1144e84ce8.png",
+    "static/media/16.png": "/MRS_text/static/media/16.2d9f0fcbbd4f6ea68b8a.png",
+    "static/media/21.png": "/MRS_text/static/media/21.eb679acf06a3a5c06ca5.png",
+    "static/media/9.png": "/MRS_text/static/media/9.7717514083c8c81d197d.png",
+    "static/media/10.png": "/MRS_text/static/media/10.9116788c3422a11530ef.png",
+    "static/media/8.png": "/MRS_text/static/media/8.10a4aa14342aed61aeb7.png",
+    "static/media/7.png": "/MRS_text/static/media/7.b3a04508ecea4cecfa27.png",
+    "static/media/2.png": "/MRS_text/static/media/2.74b99ccbac34fa4bd332.png",
+    "static/media/15.png": "/MRS_text/static/media/15.e13640147cfaac4e5aee.png",
+    "static/media/11.png": "/MRS_text/static/media/11.45b4ca472aebd638568a.png",
+    "static/media/12.png": "/MRS_text/static/media/12.ea9772a2a462b7fc55d2.png",
+    "static/media/4.png": "/MRS_text/static/media/4.b863b7d4c4ec4fd48c80.png",
+    "static/media/13.png": "/MRS_text/static/media/13.2eb2c74b95acd54c42cf.png",
+    "static/media/3.png": "/MRS_text/static/media/3.b45b5127abd9ed7938b1.png",
+    "static/media/5.png": "/MRS_text/static/media/5.c27687c7848457d5d02b.png",
+    "static/media/1.png": "/MRS_text/static/media/1.9d4afb70073abf1ce951.png",
+    "static/media/6.png": "/MRS_text/static/media/6.6a674d450739d39e5844.png",
+    "static/media/14.png": "/MRS_text/static/media/14.38b71d10d941304c7dcb.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/MRS_text/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/MainBG.png": "/MRS_text/static/media/MainBG.68fd93bd4123293b02de.png",
+    "static/media/flag.png": "/MRS_text/static/media/flag.51c48ffb27df2fb4778b.png",
+    "index.html": "/MRS_text/index.html",
+    "main.ae330364.css.map": "/MRS_text/static/css/main.ae330364.css.map",
+    "main.b4ff4359.js.map": "/MRS_text/static/js/main.b4ff4359.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae330364.css",
+    "static/js/main.b4ff4359.js"
+  ]
+}
