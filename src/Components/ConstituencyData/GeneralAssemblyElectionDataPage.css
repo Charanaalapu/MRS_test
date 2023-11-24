@@ -1,0 +1,55 @@
+.general-assembly-page-main{
+    display:flex;
+    flex-direction: column;
+}
+.first-row{
+    display:flex;
+    gap:2rem;
+}
+/* .data-card{
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+    border:1px solid rgb(120, 117, 117);
+    flex:0.33;
+    border-radius: 7px;
+    background-color: #d8d8d8;
+    padding:1rem;
+} */
+.party-seats-votes{
+ flex:0.33;
+ /* border:1px solid black; */
+ border-radius: 7px;
+ border-collapse: collapse;
+    /* width: 100%; */
+    /* background: black; */
+}
+
+  .custom-table th, .custom-table td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .custom-table th {
+    background: black;
+    color: white;
+  }
+  
+  .custom-table td {
+    background: white;
+    color: black;
+    border:1px solid black;
+    
+  }
+  .view-results{
+    background: black;
+    color: white;
+    width:13.4rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .view-results:hover{
+    background: black;
+    color: white;
+    text-decoration: underline;
+  }

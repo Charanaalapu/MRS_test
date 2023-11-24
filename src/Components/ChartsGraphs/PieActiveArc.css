@@ -1,0 +1,4 @@
+.custom-pie-chart .css-10k9i0v-MuiResponsiveChart-container > svg {
+    min-width: 62% !important; /* Override the width */
+    height: 100% !important; /* Override the height */
+  }

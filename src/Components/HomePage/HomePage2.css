@@ -1,0 +1,86 @@
+.nav-links{
+    display:flex;
+    gap:20px;
+    justify-content: flex-end;
+    padding-right:2rem;
+    /* border-bottom: 2px solid black; */
+    /* padding-bottom:1rem ; */
+    
+}
+.homepage2-container{
+    display:'flex';
+    flex-direction: column;
+    /* background: rgb(226,211,53); */
+/* background: linear-gradient(90deg, rgba(226,211,53,1) 17%, rgba(244,163,64,1) 48%, rgba(248,160,87,1) 82%, rgba(222,200,177,1) 98%, rgba(233,206,190,1) 99%, rgba(224,224,189,1) 100%); */
+} 
+.search-button{
+    position:absolute;
+    right:2.8rem;
+}
+
+.nav-links li{
+    display:flex;
+background: rgb(229,213,62);
+background: linear-gradient(90deg, rgba(229,213,62,1) 5%, rgba(222,171,28,1) 10%, rgba(230,212,111,1) 46%, rgba(210,139,62,1) 84%, rgba(221,110,47,1) 99%, rgba(191,190,90,1) 100%);height:3rem;
+border-radius: 1rem;
+align-items: center;
+justify-content: center;
+width:7rem;
+border:2px solid black;
+font-size: small;
+
+/* text-align: center; */
+}
+.nav-links li:hover{
+    background: black;
+    color:white;
+}
+.link-tab{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    width:100%;
+    height:100%;
+}
+.link-tab:hover{
+    color:white;
+}
+.caption-search-div{
+    background-image: url('../../Assets/beach.jpg');
+    height:30vh;
+    border-bottom:2px solid black;
+    display:flex;
+    flex-direction: column;
+    background-size: cover;
+    /* height:'500px'; */
+    background-repeat: no-repeat;
+}
+.cards-constituency{
+    padding:2rem;
+    border:2px solid black;
+    min-width:300px;
+    border-radius: 8px;
+    
+}
+.cards-constituency-data{
+    padding-left:1rem;
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 2rem;
+    border:2px solid black;
+    margin-left:20px;
+    border-radius:8px;
+    padding-right:0.7rem;
+    /* gap:1rem; */
+
+    /* border:1px solid black; */
+    
+}
+.state-summary{
+    padding-left:1rem;
+    margin-top:1rem;
+}

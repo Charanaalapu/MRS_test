@@ -1,0 +1,38 @@
+.left_div{
+    /* margin: 3rem; */
+    padding:1rem;
+    /* background-color: aliceblue; */
+    background-color: rgb(252, 249, 240);
+
+    /* display: flex; */
+    /* width: 100vh; */
+
+}
+.td_items:hover{
+    background-color: #958f8f;
+    color:white;
+    cursor: pointer;
+}
+.table_map_div{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+ul{
+    list-style: none;
+}
+tr>th{
+    padding-left: 10px;
+}
+#map_div{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    
+    /* background-color: aquamarine; */
+}
+td{
+    font-weight: bold;
+}

@@ -1,0 +1,131 @@
+.maps_data_body{
+    height: 100vh;
+    background-color: rgb(252, 249, 240);
+    padding: 0px 10px 0px 10px;
+}
+.antoniobold {
+    font-family: 'Antonio, sans-serif';
+    font-weight: bold;
+}
+.Maps_wise_div{
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid grey;
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    overflow-x: scroll;
+}
+.Maps_wise_div::-webkit-scrollbar{
+    height:0.5rem;
+    border-radius: 20%;
+}
+.Maps_wise_div::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the thumb */
+    border-radius: 2.5px; /* Roundness of the thumb */
+  }
+
+  .Maps_wise_div::-webkit-scrollbar-track {
+    background-color: #eee; /* Color of the track */
+  }
+.Maps_cards{
+    height: 450px;
+    min-width:350px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    background-color: rgb(219, 225, 218);
+    border-radius: 50px;
+    padding-top: 20px;
+    margin: 15px;
+}
+#const_names_div{
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    font-size:medium;
+    font-weight: 700;
+}
+.img_div{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.table_container{
+    width: 330px;
+    height: 100%;
+    overflow-y: scroll;
+    border-radius: 30px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.tbody>tr>td{
+    padding-left: 15px;
+    font-size: x-small;
+    color: brown;
+}
+.table_container::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+    margin-right: 10px  ;
+  }
+  .table_container::-webkit-scrollbar-thumb {
+    background: #958f8f;
+    border-radius: 16px; /* Radius of the scrollbar thumb */
+  }
+  .table_container::-webkit-scrollbar-thumb:hover {
+    background: #1a1919;/* Color of the scrollbar thumb on hover */
+  }
+  .table_container::-webkit-scrollbar {
+    width: 8px; /* Reduce the width to reduce scrollbar height */
+  }
+  .header1{
+    width: 100%;
+    position: sticky;
+    top: -12px;
+    background-color: rgb(249, 240, 217);
+    display: flex;
+    gap: 17%;
+    justify-content: space-between;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+#th1{
+    background-color: rgb(249, 240, 217);
+    border-top-left-radius: 30px;
+    margin-left: 5px;
+}
+#th3{
+    background-color: rgb(249, 240, 217);
+    border-top-right-radius: 30px;
+    width: 150px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+    .Maps_wise_div{
+        height: 500px;
+        width: 100%;
+        border-radius: 15px;
+        border: 2px solid grey;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        overflow-x: scroll;
+    }
+
+}

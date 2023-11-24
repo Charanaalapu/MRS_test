@@ -1,0 +1,187 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+.App{
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Styling the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Set the background color */
+  border-radius: 5px; /* Round the corners */
+}
+
+.container {
+  display: flex;
+  margin-left: 0;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background: rgb(229,213,62);
+  background: linear-gradient(90deg, rgba(229,213,62,1) 5%, rgba(222,171,28,1) 10%, rgba(230,212,111,1) 46%, rgba(210,139,62,1) 84%, rgba(221,110,47,1) 99%, rgba(191,190,90,1) 100%);height:3rem;
+  color: #0b0a0a;
+  height: 100vh;
+  width: 200px;
+  transition: all 1.0s;
+  margin-top: 10px;
+
+}
+
+.top_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 30px;
+  
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+
+
+.constituency-links {
+  align-items: center;
+  font-size: small;
+  text-decoration: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.constituency-links-tab {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto';
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+}
+
+.constituency-links:hover {
+  background-color: rgb(130, 174, 174);
+  color: white;
+
+}
+
+.toggle_buttons {
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  font-size: small;
+}
+
+.metadata {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metadata2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+
+}
+
+.main_conatiner {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.meta_heading {
+  height: 30vh;
+  padding-right: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metadatav>div {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tgl_btns {
+  background-color: #C2FBD7;
+  border-radius: 50px;
+  border-width: 0;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+  color: #008000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  height: 40px;
+  /* width: 100%; */
+  width:100px;
+  padding: 0 25px;
+  margin: 10px;
+  transition: all 200ms;
+}
+
+.tgl_btns:hover {
+  background-color: #AFE6C3;
+  transform: scale(1.05);
+}
+
+/* Styling the scrollbar track on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: goldenrod; /* Change the color on hover */
+}
+
+/* Styling the scrollbar track when being clicked and dragged */
+::-webkit-scrollbar-thumb:active {
+  background: #333; /* Change the color when active */
+}

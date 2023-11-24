@@ -1,0 +1,81 @@
+.heading{
+    display: flex;
+    /* justify-content: center; */
+    color: rgb(92, 88, 89);
+    /* line-height: 10rem; */
+}
+.dash-main{
+    /* height:100vh; */
+    width:100%;
+}
+.bar-graph-alliance{
+    border:1px solid black;
+    border-radius: 8px;
+    padding:0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.left_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    
+}
+#left1{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.01px solid rgb(175, 170, 170); */
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+.table{
+    border: 1px solid black;
+}
+.center_div{
+    /* height: 400px; */
+    /* width: 400px; */
+    border: 0.01px solid rgb(175, 170, 170);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.right_div{
+    height: 100%;
+    width: 400px;
+    border: 0.01px solid rgb(175, 170, 170);
+    padding-left: 10px;
+    padding-bottom: 10PX;
+    border-radius: 5PX;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#lower_table{
+    border: 1px solid rgb(162, 158, 158);
+    margin: 5px ;
+    padding:10px;
+    font-size: small;
+}
+#search_icon{
+    margin-left: 10px;
+}
+.table  tr td{
+    border: 1px solid rgb(201, 201, 201);
+    /* background-color: rgb(70, 66, 66); */
+    /* color: white; */
+}
+.table > thead>tr> th{
+    border: 1px solid rgb(201, 201, 201);
+    background-color: rgb(70, 66, 66);
+    color: white;
+}

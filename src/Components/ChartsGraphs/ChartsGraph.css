@@ -1,0 +1,9 @@
+.pie-chart{
+    /* width: 50%;
+    height:100vh; */
+    max-width: 300px;
+}
+.pie-chart-container{
+    width: 500px;
+}
+

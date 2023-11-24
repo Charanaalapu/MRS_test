@@ -1,0 +1,10 @@
+.constituency-list{
+    font-size: small;
+    flex:0.3;
+}
+.menu-bar{
+    display:flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: flex-end;
+}

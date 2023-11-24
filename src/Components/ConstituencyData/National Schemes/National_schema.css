@@ -1,0 +1,26 @@
+.Schema_container {
+    height: 100%;
+    width: 100%;
+    /* background-color:#958f8f; */
+    background-color: rgb(252, 249, 240);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#Schema_table {
+    height: 100%;
+    width: 900px;
+    /* margin-left: 20px; */
+    /* background-color: rgb(142, 108, 63); */
+
+}
+
+
+.thead_schema >tr>th{
+    text-align: center;
+}
+
+#Schema_tabel_body {}
